@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/talanaji/Fullstack-JS-Developmet#readme",
   "dependencies": {
+    "babel-node": "0.0.1-security",
     "express": "^4.17.1",
     "mongodb": "^3.6.6",
     "prop-types": "^15.7.2",

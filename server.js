@@ -4,9 +4,14 @@ import apiRouter from './api/index.js';
 import express from 'express';
 const server = express();
 
+server.set('view engine','ejs');
+
 //handel route for root 
 server.get('/', (req,res)=>{
-    res.send('Hello Express');
+    //res.send('Hello Express');
+    res.render('index', {
+        content:'Hello Express & EJS'
+    });
 });
 
 server.use('/api',apiRouter);

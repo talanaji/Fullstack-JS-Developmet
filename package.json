@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/talanaji/Fullstack-JS-Developmet/issues"
   },
-  "homepage": "https://github.com/talanaji/Fullstack-JS-Developmet#readme"
+  "homepage": "https://github.com/talanaji/Fullstack-JS-Developmet#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
